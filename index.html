@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./public/style.css" />
+        <link rel="shortcut icon" href="#" />
+        <title>TELL Daily Horoscopes</title>
+    </head>
+    <body>
+        <div class="container-horoscope">
+            <div class="header">
+                <img
+                    src="./public/icon.svg"
+                    alt="TELL logo"
+                    width="22"
+                    height="19"
+                />
+                <span>TELL</span>
+            </div>
+            <div
+                class="div-hero"
+                style="
+                    background-image: url('./public/images/horoscopes-hero.jpg');
+                "
+            ></div>
+            <hr />
+            <p><span class="daily-title">Daily</span></p>
+            <p>
+                <span class="daily-italic"
+                    ><i
+                        >Discover what your zodiac sign has in store for you
+                        today</i
+                    ></span
+                >
+            </p>
+            <hr />
+            <p>
+                Welcome to Horoscopes, brought to you by TELL’s astrologers,
+                identical twin sisters Psychic Ophira and Madame Deborah (a.k.a.
+                The AstroTwins). They are the authors of several astrology
+                books, including their popular yearly horoscope guides, and have
+                read charts for celebrities including, among others, Beyoncé and
+                Madonna.
+            </p>
+            <div id="error-message"></div>
+            <div id="signs" class="grid"></div>
+        </div>
+        <script src="./src/app.js" type="module"></script>
+    </body>
+</html>
